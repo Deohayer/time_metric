@@ -1,4 +1,4 @@
-#ifndef MYSTL_D_TIME_POINT //!MYSTL_D_TIME_POINT
+#ifndef MYSTL_D_TIME_POINT
 #define MYSTL_D_TIME_POINT
 
 #include <chrono>

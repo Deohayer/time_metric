@@ -4,7 +4,7 @@
 #include "time_point.h"
 
 template <typename Func>
-decltype(auto) measure_executing_time(Func f)
+decltype(auto) measure_execution_time(Func f)
 {
 	auto t1 = mystl::time_point::make_point();
 	f();

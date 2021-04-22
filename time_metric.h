@@ -1,5 +1,5 @@
-#ifndef MYSTL_D_TIME_METRIC
-#define MYSTL_D_TIME_METRIC
+#ifndef DEOHAYER_TIME_METRIC
+#define DEOHAYER_TIME_METRIC
 
 #include "time_point.h"
 

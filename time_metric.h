@@ -6,10 +6,10 @@
 template <typename Func>
 decltype(auto) measure_execution_time(Func f)
 {
-	auto t1 = mystl::time_point::make_point();
+	auto t1 = time_point::current_point();
 	f();
-	auto t2 = mystl::time_point::make_point();
-	return mystl::time_point::time_span(t1, t2);
+	auto t2 = time_point::current_point();
+	return t2 - t1;
 }
 
 #endif

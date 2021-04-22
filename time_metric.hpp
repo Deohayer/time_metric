@@ -1,7 +1,7 @@
 #ifndef DEOHAYER_TIME_METRIC
 #define DEOHAYER_TIME_METRIC
 
-#include "time_point.h"
+#include "time_point.hpp"
 
 template <typename Func>
 decltype(auto) measure_execution_time(Func f)
